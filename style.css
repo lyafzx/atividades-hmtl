@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1586878340978-f9ca47ad7d72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(179, 176, 91, 0.451);
+    padding: 40px 24px;
+    border-radius: 10px;
+}
+main{
+    width: 300px;
+    position: relative;
+}
+input{
+    width: 100%;
+    margin: 10px 0px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+h1{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.whatsapp{
+    position:absolute;
+    right: 0;
+    top: -10px;
+
+}
+
+.btn-login{
+    width: 100%;
+    margin: 10px 0;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(162, 158, 83, 0.375);
+    color: black;
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
